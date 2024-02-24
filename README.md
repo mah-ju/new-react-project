@@ -19,7 +19,7 @@ Additionally, I'm exploring, for the first time, the use of Framer Motion.
 
     2- Implemented an carousel that automatically transitions between images. Utilized the `useEffect` hook for image transitions.
 
-- **Form Submission:** Created a form that, upon submission, presents a modal with a personalized message containing the user's provided name and email. Additionally, if the user attempts to submit the form with empty fields, an alert prompts them to fill in the required information.
+- **Form Submission:**  Created a form that, upon submission, displays a modal featuring a personalized message with the user's name and email. Implemented form validation to ensure the modal appears only when all required fields are filled; otherwise, an alert prompts users to provide the necessary information. 
 
 </div>
 
