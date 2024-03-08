@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Hero } from "@/components/Hero";
 import { Highlights } from "@/components/Highlights";
 import { BoxContent } from "@/components/BoxContent";
@@ -7,16 +7,11 @@ import { Box2 } from "@/components/Box2";
 import { Header } from "@/components/Header";
 
 export default function Home() {
-
-  
   return (
-
     <div>
-      
       <Header />
 
-      <Hero
-        urlImg="/hero-img.jpg" />
+      <Hero urlImg="/hero-img.jpg" />
 
       <Highlights />
 
@@ -34,9 +29,7 @@ export default function Home() {
 eros metus suscipit nisi, ac scelerisque lorem nulla sed massa. Duis id congue nulla. 
 Suspendisse vulputate molestie tortor vitae commodo."
       />
-      <Hero
-
-        urlImg="/high-3.jpg" />
+      <Hero urlImg="/high-3.jpg" />
 
       <Footer />
     </div>
